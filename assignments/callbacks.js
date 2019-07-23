@@ -75,31 +75,23 @@ const valArr = [];
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
-  console.log(list.filter(function(entry) {
-    return entry === item;
-  }));
-
-  // // for (let i = 0; i < list.length; i++){
-  // //   console.log(i);
-  //    if (list[i] === item) {
-  //   //  if (1 === 1) {
-  //     // valArr[i] = item;
-  //     // console.log("Done!");
-  //     // console.log(valArr);
-  //     return cb(true);
-  //   }
-  //   else {
-  //     // console.log("Nope!");
-  //     return cb("Nah");
-  //   }
-  // }
-  
-  // console.log("Done!");
+  newArray = [];
+  if (newArray === []){
+    console.log('true');
+    return true;
+  }
+  else {
+    console.log('false')
+    return false;
+  }
 }
 
-contains('yo-yo', items, function(finder){
-  console.log(finder);
+contains('yo-yo', items, function(present){
+  // console.log(present);
+  return present
 })
+//COULDN'T FINISH THIS ONE
+
 
 /* STRETCH PROBLEM */
 
