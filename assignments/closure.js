@@ -1,6 +1,26 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function universe(){
+  const age = "Crazy old.";
+
+  const songs = "Across the ___";
+  console.log("Come find me, my ship crashed!");
+  galaxy();
+
+  function galaxy(){
+    const name = "Milky Way";
+    console.log(`I'm flying across the ${name}`);
+    solar_system();
+    
+    function solar_system(){
+      const planets = 9;
+      console.log(`In my corner of the ${name} there's ${planets} planets.`);
+      
+    }
+  }
+}
+universe();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
